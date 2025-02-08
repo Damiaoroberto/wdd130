@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #c182dc;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 90px;
+  
+  
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+nav ul li a.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+
+.contact-info {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info address {
+  font-style: normal;
+}
+
+.google-map iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #ddd;
+}
+
+
+.employee-profiles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.employee-profiles .profile {
+  text-align: center;
+}
+
+.employee-profiles img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.employee-profiles figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: center;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contact-form fieldset {
+  border: none;
+  margin-bottom: 20px;
+  display: flex; 
+  gap: 20px; 
+}
+.contact-form label {
+  display: flex; 
+  align-items: center; 
+}
+.contact-form label[for="subscribe"] {
+  display: block; 
+  text-align: center; 
+  margin: 20px 0;
+}
+
+.contact-form input[type="checkbox"] {
+  margin-right: 10px; 
+}
+.contact-form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.contact-form button {
+  background-color: #2a7f62;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; 
+}
+
+.contact-form button:hover {
+  background-color: #22734a;
+}
+
+
+footer {
+  background-color: #2a7f62;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
